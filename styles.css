@@ -4,12 +4,33 @@ font-family: 'UnifrakturMaguntia', cursive; */
 
 h1 {
     color: black;
+    border: 2px white solid;
+    outline: 3px black solid;
+    display: block;
     font-size: 2rem;
     text-shadow: 1px 1px 2px white;
     background-color: orange;
     text-align: center;
     letter-spacing: 3px;
     font-family: "Lacquer", sans-serif;
+}
+#candycorn {
+    width: 45px;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 85%;
+    margin-top: 15px;
+    margin-bottom: -75px;
+    /* display: inline-block; */
+}
+#candycorn2 {
+    width: 45px;
+    height: auto;
+    margin-left: 85%;
+    margin-right: 10%;
+    margin-top: -20%;
+    margin-bottom: 20px;
+    /* display: inline-block; */
 }
 p {
     color: black;
@@ -36,6 +57,24 @@ a {
     margin-left: 43%;
     margin-right: 42%;
 }
+#ghost {
+    width: 10%;
+    height: auto;
+    position: relative;
+    -webkit-animation-name: "ghost";
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes ghost {
+    0%   { left:0px; top:0px;}
+    20%  { left:100px;top:0px;}
+    40%  { left:400px;top:200px;}
+    60%  { left:100px;top:200px;}
+    80% { left:600px; top: 5px;}
+    100% { left:0px; top:0px;}
+}
+
 footer {
     font-family: "UnifrakturMaguntia", cursive;
     text-align: center;
