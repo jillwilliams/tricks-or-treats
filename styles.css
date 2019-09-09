@@ -24,15 +24,21 @@ p {
 }
 a {
     color: black;
+    text-shadow: 1px 1px 1px orange;
     font-size: 1.5rem;
     letter-spacing: 3px;
     font-family: "Lacquer", sans-serif;
-    text-align: center;
     margin-left: 35%;
-    margin-right: 33%;
+    margin-right: 35%:
+}
+#backToTop {
+    color: black;
+    margin-left: 43%;
+    margin-right: 42%;
 }
 footer {
-    font-family: "Lacquer", sans-serif;
+    font-family: "UnifrakturMaguntia", cursive;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 45px;
+    font-size: 1.5rem;
 }
